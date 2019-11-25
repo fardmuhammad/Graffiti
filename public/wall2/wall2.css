@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-image: url("./img/wall-texture-seamless.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.main {
+    background-image: url("./img/grafbackground2b.png");
+    width: 700px;
+    height: 600px;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.drawArea {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 125px;
+    top: 103px;
+}
+
+.pathSVG {
+    fill: none;
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.drawSVG {
+    width: 100%;
+    height: 100%;
+}
